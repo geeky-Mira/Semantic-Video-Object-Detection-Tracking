@@ -107,11 +107,10 @@ If running in **Google Colab**, expose the app using **ngrok** or a similar tunn
 .
 ├── app.py                 # Streamlit application
 ├── notebooks/             # Experimentation / demo notebooks
-│   └── demo.ipynb
+│   └── working_notebook.ipynb
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation
-├── assets/                # Screenshots / GIFs
-└── sample_videos/         # Example input videos
+└── assets/                # Example input videos and output videos
 ```
 
 ---
