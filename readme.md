@@ -50,8 +50,8 @@ It is designed as a practical, production-style demo suitable for portfolios, in
 Clone the repository:
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git
-cd <YOUR_REPO>
+git clone https://github.com/geeky-Mira/Semantic-Video-Object-Detection-Tracking.git
+cd Semantic-Video-Object-Detection-Tracking
 ```
 
 (Optional) Create a virtual environment:
