@@ -1,0 +1,12 @@
+
+tracker_type: bytetrack
+track_high_thresh: 0.25  # High detection confidence threshold for track initiation
+track_low_thresh: 0.1   # Low detection confidence threshold for tracks
+new_track_thresh: 0.25  # Threshold for new object track creation
+track_buffer: 30        # Number of frames to keep a track without matching
+match_thresh: 0.8       # IOU threshold for track matching
+# ADDED PARAMETERS to fix the 'fuse_score' AttributeError
+fuse_score: True
+iou_thresh: 0.7
+min_box_area: 10
+mot_thresh: 0.2

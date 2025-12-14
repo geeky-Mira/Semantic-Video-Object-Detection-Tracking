@@ -19,7 +19,7 @@ use_clip = st.sidebar.checkbox("Enable CLIP Search")
 # --- LOAD MODELS (cached) ---
 @st.cache_resource
 def load_models():
-    yolo = YOLO('yolov8n.pt')  # smaller & faster model
+    yolo = YOLO('yolov8s.pt')  
     device = "cuda" if torch.cuda.is_available() else "cpu"
     clip_model, preprocess = clip.load("ViT-B/32", device=device)
     return yolo, clip_model, preprocess, device
