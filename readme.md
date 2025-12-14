@@ -144,12 +144,6 @@ If running in **Google Colab**, expose the app using **ngrok** or a similar tunn
 
 ---
 
-## 📜 License
-
-This project is released under the **MIT License**.
-
----
-
 ## 🙌 Acknowledgements
 
 - Ultralytics YOLOv8
